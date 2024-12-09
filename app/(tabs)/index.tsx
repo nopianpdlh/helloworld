@@ -30,16 +30,16 @@ const HomeScreen = () => {
       <View style={[styles.container, styles.border]}>
         <View style={styles.profileContainer}>
           <Image
-            source={{ uri: 'https://avatars.githubusercontent.com/u/182467486?v=4' }} // Ganti dengan URL gambar kamu
+            source={{ uri: 'https://avatars.githubusercontent.com/u/139773713?v=4' }} // Ganti dengan URL gambar kamu
             style={styles.profileImage}
           />
-          <Text style={styles.title}>Aldira Givari</Text>
+          <Text style={styles.title}>Novian Fadhilah</Text>
         </View>
-        <Text style={styles.text}>NIM: 222505074</Text>
+        <Text style={styles.text}>222505055</Text>
       </View>
 
       {/* To-Do List */}
-      <View style={styles.todoContainer}>
+      {/* <View style={styles.todoContainer}>
         <TextInput
           style={styles.input}
           value={task}
@@ -62,7 +62,7 @@ const HomeScreen = () => {
             </View>
           )}
         />
-      </View>
+      </View> */}
     </View>
   );
 };
@@ -72,7 +72,7 @@ const AboutMeScreen = () => (
   <View style={styles.screenContainer}>
     <View style={[styles.container, styles.border]}>
       <Text style={styles.title}>Tentang Saya</Text>
-      <Text style={styles.text}>Saya adalah seorang mahasiswa yang sedang belajar react native.</Text>
+      <Text style={styles.text}>Nama saya Novian Fadhilah, lahir pada tahun 2003. Saya saat ini sedang menempuh pendidikan di Masoem University, jurusan Sistem Informasi, dan telah mencapai semester 5. Saya memiliki minat yang kuat dalam dunia teknologi dan bercita-cita menjadi seorang software engineer. Selain fokus dalam perkuliahan, saya aktif dengan hobi seperti bermain game, hiking, menonton film, dan membaca komik, yang membantu mengembangkan kreativitas dan ketahanan. Saya selalu antusias belajar hal baru di bidang pemrograman dan berkomitmen untuk mengasah keterampilan teknis saya demi mencapai cita-cita di dunia teknologi.</Text>
     </View>
   </View>
 );
@@ -82,9 +82,9 @@ const HobbiesScreen = () => (
   <View style={styles.screenContainer}>
     <View style={[styles.container, styles.border]}>
       <Text style={styles.title}>Hobi Saya</Text>
-      <Text style={styles.text}>1. Coding</Text>
-      <Text style={styles.text}>2. Bermain game</Text>
-      <Text style={styles.text}>3. Menonton Film</Text>
+      <Text style={styles.text}>1. Gaming</Text>
+      <Text style={styles.text}>2. Hiking</Text>
+      <Text style={styles.text}>3. Membaca komik</Text>
     </View>
   </View>
 );
@@ -95,10 +95,10 @@ const CustomDrawerContent = (props: DrawerContentComponentProps) => (
     {/* Foto Profil Kecil */}
     <View style={styles.drawerProfileContainer}>
       <Image
-        source={{ uri: 'https://avatars.githubusercontent.com/u/182467486?v=4' }} // Ganti dengan URL gambar kamu
+        source={{ uri: 'https://avatars.githubusercontent.com/u/139773713?v=4' }} // Ganti dengan URL gambar kamu
         style={styles.drawerProfileImage}
       />
-      <Text style={styles.drawerTitle}>Aldira Givari</Text>
+      <Text style={styles.drawerTitle}>Novian Fadhilah</Text>
     </View>
 
     {/* Menampilkan menu drawer */}
